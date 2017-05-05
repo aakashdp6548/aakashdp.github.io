@@ -1,0 +1,18 @@
+#menubar {
+    background-color: rgba(10, 10, 10, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 0px;
+
+}
+
+.menuItem {
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.menuItem:hover {
+    background-color: #EEEEEE;
+    color:  rgb(10, 10, 10);
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Oxygen;
+    src: url(../Resources/Fonts/Oxygen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oxygen;
+    src url(../Resources/Fonts/Oxygen-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: Oxygen;
+    margin: 0px;
+    background-image: url(../Resources/back1.jpg);
+    background-size: cover;
+}
+
+.heading {
+    width: 30%;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.8);
+    color: white;
+
+}
