@@ -1,8 +1,19 @@
-$(document).ready(function(){
+var construction = $(".construction");
+var heading = $(".heading");
+var footer = $("#footer");
 
-    var construction = $(".construction");
-    var heading = $(".heading");
-    var footer = $("#footer");
+function moveFooter() {
+    if ($("body").height > $(window).height) {
+        footer.removeClass("bottomOfScreen");
+        footer.addClass("afterElements");
+    }
+    else {
+        footer.removeClass("bottomOfScreen");
+        footer.addClass("afterElements");
+    }
+}
+
+$(document).ready(function(){
 
     construction.hide();
     footer.addClass("bottomOfScreen");
@@ -10,21 +21,18 @@ $(document).ready(function(){
     $("#tab1").click(function(){
         construction.show();
         heading.hide();
-        footer.removeClass("bottomOfScreen");
-        footer.addClass("afterElements");
+        moveFooter();
     });
 
     $("#tab2").click(function(){
         construction.show();
         heading.hide();
-        footer.removeClass("bottomOfScreen");
-        footer.addClass("afterElements");
+        moveFooter();
     });
 
     $("#home").click(function(){
         construction.hide();
         heading.show();
-        footer.removeClass("afterElements");
-        footer.addClass("bottomOfScreen");
+        moveFooter();
     });
 });
