@@ -1,19 +1,18 @@
 .menubar {
     background-color: rgb(240, 240, 240);
     text-align: center;
-    padding: 10px;
-    font-size: 0px;
-
+    padding: 0;
 }
 
-.menubar .menuItem {
+.menuItem {
     color: black;
     padding: 10px 20px;
+    display: inline-block;
     font-size: 14px;
     user-select: none;
 }
 
-.menubar .menuItem:hover {
+.menuItem:hover {
     background-color: white;
     color: lightblue;
 }
