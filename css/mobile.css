@@ -1,6 +1,4 @@
-@media only screen
-and (min-width : 321px)
-and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 
     .homepage .header {
         width: 100%;
@@ -25,6 +23,11 @@ and (max-width: 480px) {
         width: 100%;
         height: auto;
         padding-bottom: 0;
+
+        white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
     }
 
     .menuItem {
@@ -44,5 +47,4 @@ and (max-width: 480px) {
     td {
         display: table-row;
     }
-
 }
