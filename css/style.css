@@ -42,8 +42,6 @@ body.homePage {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    /*background-position: 0px -200px;*/
 }
 
 body.transcriptPage {

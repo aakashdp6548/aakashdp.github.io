@@ -12,6 +12,14 @@
     #homeBody {
 
         background-image: url(../Resources/mobile.jpg) !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
     }
 
