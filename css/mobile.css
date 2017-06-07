@@ -1,12 +1,11 @@
 @media only screen and (max-width: 480px) {
 
-    .homepage .header {
+    #homeBody > .heading {
         width: 100%;
-        height: 300px;
     }
 
-    .transcriptPage .header {
-        margin: 0;
+    .transcriptPage .heading {
+        margin: 10px 10%;
     }
 
     #homeBody {
@@ -15,8 +14,6 @@
 
         max-width: 100%;
         background-image: url(../Resources/mobile.jpg) !important;
-
-
     }
 
     .menubar {
@@ -40,11 +37,19 @@
     }
 
     .container {
-        margin-bottom: 50px;
+        margin-bottom: 50px !important;
         margin: 10px 10%;
     }
 
     td {
         display: table-row;
+        height: auto;
     }
+
+
+    td .emptyLine {
+        display: block;
+    }
+
+
 }

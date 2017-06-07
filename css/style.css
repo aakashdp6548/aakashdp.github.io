@@ -78,7 +78,15 @@ table {
 td {
     width: 50%;
     vertical-align: top;
-    padding: 0px 0px 50px 0px;
+    padding: 0;
+}
+
+td .emptyLine {
+    display: none;
+}
+
+.courses td > h3 {
+    margin: 0.5em 0em 0.5em 0em;
 }
 
 .heading {
@@ -104,12 +112,6 @@ td {
     text-align: left;
 }
 
-@media (max-width: 480px) {
-    .transcriptPage .heading {
-        margin: 10px 10%;
-    }
-}
-
 .line {
     height: 2px;
     margin: 10px 20%;
@@ -126,23 +128,7 @@ td {
     height: auto;
 }
 
-.container .courses {
-    background-color: white;
-
-    width: 400px;
-    height: auto;
-    float: left;
-    margin: 5px;
-
-    display: inline-block;
-    vertical-align: top;
-}
-
-.email a {
-    color: darkblue;
-}
-
-.email a:visited {
+.email a, a:before {
     color: darkblue;
 }
 
