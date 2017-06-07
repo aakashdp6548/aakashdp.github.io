@@ -44,8 +44,6 @@ body.homePage {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    background-position: 0px 200px;
 }
 
 @media screen
@@ -60,7 +58,7 @@ body.homePage {
         min-height: 100%;
         max-width: 100%;
 
-        background-image: url(../Resources/mobile.jpg) !important;
+        background-image: url(../Resources/starry_night.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
