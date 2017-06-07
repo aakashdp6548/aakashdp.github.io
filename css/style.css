@@ -44,6 +44,35 @@ body.homePage {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    background-position: 0px 200px;
+}
+
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-min-device-pixel-ratio : 4)
+  and (-webkit-device-pixel-ratio : 4)
+  and (orientation: portrait) {
+
+    #homeBody {
+        height: auto;
+        min-height: 100%;
+        max-width: 100%;
+
+        background-image: url(../Resources/mobile.jpg) !important;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        background-color: blue !important;
+
+    }
 }
 
 body.transcriptPage {
