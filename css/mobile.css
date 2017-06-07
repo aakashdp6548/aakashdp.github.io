@@ -1,10 +1,6 @@
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-min-device-pixel-ratio : 4)
-  and (-webkit-device-pixel-ratio : 4)
-  and (orientation: portrait) {
-
+@media only screen
+and (min-width : 321px)
+and (max-width: 480px) {
 
     .homepage .header {
         width: 100%;
@@ -15,7 +11,7 @@
         margin: 0;
     }
 
-    /*#homeBody {
+    body, #homeBody {
         height: auto;
         min-height: 100%;
         max-width: 100%;
@@ -30,9 +26,7 @@
         -o-background-size: cover;
         background-size: cover;
 
-        background-color: blue !important;
-
-    }*/
+    }
 
     .menubar {
         width: 100%;
