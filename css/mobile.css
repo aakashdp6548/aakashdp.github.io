@@ -14,17 +14,10 @@ and (max-width: 480px) {
     #homeBody {
         height: auto;
         min-height: 100%;
+
         max-width: 100%;
-
         background-image: url(../Resources/mobile.jpg) !important;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
 
     }
 

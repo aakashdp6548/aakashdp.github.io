@@ -34,14 +34,6 @@ body {
     min-height: 100%;
 }
 
-@media screen and (max-width : 480px) {
-
-    #homeBody {
-        background-image: url(../Resources/mobile.jpg) !important;
-        height: 100%;
-    }
-}
-
 .homePage {
     background-image: url(../Resources/full_size.jpg);
 
@@ -53,14 +45,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-@media screen and (max-width : 480px) {
-
-    #homeBody {
-        background-image: url(../Resources/mobile.jpg) !important;
-        height: 100%;
-    }
 }
 
 body.transcriptPage {
