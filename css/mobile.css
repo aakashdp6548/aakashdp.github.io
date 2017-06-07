@@ -11,7 +11,7 @@ and (max-width: 480px) {
         margin: 0;
     }
 
-    body, #homeBody {
+    #homeBody {
         height: auto;
         min-height: 100%;
         max-width: 100%;
