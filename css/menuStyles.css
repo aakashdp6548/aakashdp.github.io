@@ -1,19 +1,23 @@
-#menubar {
-    background-color: rgba(10, 10, 10, 0.8);
+.menubar {
+    background-color: rgb(240, 240, 240);
     text-align: center;
     padding: 10px;
     font-size: 0px;
 
 }
 
-.menuItem {
-    color: white;
+.menubar .menuItem {
+    color: black;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     user-select: none;
 }
 
-.menuItem:hover {
-    background-color: #EEEEEE;
-    color:  rgb(10, 10, 10);
+.menubar .menuItem:hover {
+    background-color: white;
+    color: black;
+}
+
+.menubar a:visited {
+    color: black;
 }

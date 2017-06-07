@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Oxygen;
+    src: url(../Resources/Fonts/Oxygen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oxygen;
+    src url(../Resources/Fonts/Oxygen-Bold.ttf);
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: Oxygen;
+    margin: 0px;
+    width: 100%;
+}
+
+body.homePage {
+    background-image: url(../Resources/full_size.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px -200px;
+}
+
+body.transcriptPage {
+    background-color: white;
+}
+
+div {
+    padding: 10px;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+ul,li {
+   list-style:none;
+   margin:0;
+   padding:0;
+}
+
+table {
+    margin: 10px;
+    font-size: 14px;
+}
+
+td {
+    width: 50%;
+    vertical-align: top;
+    padding: 0px 0px 50px 0px;
+}
+
+.heading {
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.homePage .heading {
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.8);
+    color: black;
+    padding: 50px 10px;
+}
+
+.transcriptPage .heading {
+    color: black;
+    padding-top: 75px;
+    margin: 10px 20%;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+.line {
+    height: 2px;
+    margin: 10px 20%;
+    padding: 0px;
+    background-color: darkblue;
+}
+
+.container {
+    background-color: rgb(245, 245, 245);
+    margin: 10px 20%;
+    min-width: 50%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+}
+
+.container .courses {
+    background-color: white;
+
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 5px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.email a {
+    color: darkblue;
+}
+
+.email a:visited {
+    color: darkblue;
+}
+
+.email a:hover {
+    color: lightblue;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 0.75em;
+  padding: 0.5rem;
+  text-align: center;
+  color: black;
+}
+
+.homePage .footer {
+    color: white;
+}
