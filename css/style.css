@@ -33,20 +33,14 @@ body {
     min-height: 100%;
 }
 
-@media only screen
-and (min-width : 321px)
-and (max-width: 480px) {
+@media screen and (max-width : 480px) {
 
-    body#homeBody {
-        height: auto;
-        min-height: 100%;
-        max-width: 100%;
-
-        background-image: url(../Resources/starry_night.jpg);
+    #homeBody {
+        background-image: url(../Resources/mobile.jpg) !important;
     }
 }
 
-body.homePage {
+.homePage {
     background-image: url(../Resources/full_size.jpg);
 
     background-repeat: no-repeat;
@@ -59,16 +53,10 @@ body.homePage {
     background-size: cover;
 }
 
-@media only screen
-and (min-width : 321px)
-and (max-width: 480px) {
+@media screen and (max-width : 480px) {
 
-    body#homeBody {
-        height: auto;
-        min-height: 100%;
-        max-width: 100%;
-
-        background-image: url(../Resources/starry_night.jpg);
+    #homeBody {
+        background-image: url(../Resources/mobile.jpg) !important;
     }
 }
 
