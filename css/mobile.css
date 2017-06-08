@@ -53,6 +53,7 @@
 
     .aboutInfo#introduction {
         position: relative;
+        font-size: 1em !important;
     }
 
     .courses td {

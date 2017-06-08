@@ -2,6 +2,9 @@
     background-color: rgb(240, 240, 240);
     text-align: center;
     padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
 }
 
 .menuItem {
@@ -19,4 +22,12 @@
 
 .menubar a:visited {
     color: black;
+}
+
+.nav-up {
+    top: -40px;
+}
+
+.nav-down {
+    top: 0px;
 }

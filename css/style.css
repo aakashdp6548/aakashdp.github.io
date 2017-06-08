@@ -34,6 +34,11 @@ body {
     min-height: 100%;
 }
 
+::selection {
+    background: black;
+    color: lightblue;
+}
+
 .homePage {
     background-image: url(../Resources/full_size.jpg);
 
@@ -92,18 +97,12 @@ td .emptyLine {
 }
 
 .heading {
-    margin: 0px;
     border: 0px;
-    padding: 0px;
-    margin-top: 0px;
-    text-align: center;
-}
-
-.heading {
-    color: black;
-    padding-top: 75px;
+    padding: 75px 0px 0px 0px;
     margin: 10px 20%;
-    font-size: 2.5em;
+
+    color: black;
+    font-size: 2em;
     text-align: left;
 }
 
@@ -152,6 +151,10 @@ td .emptyLine {
     margin: auto;
     vertical-align: top;
     position: absolute;
+}
+
+#introduction {
+    font-size: 1.5em;
 }
 
 .contactLink a, a:before {
