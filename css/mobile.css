@@ -1,13 +1,12 @@
 @media only screen and (max-width: 480px) {
 
-    #homeBody > .heading {
-        width: 100%;
+    .heading {
+        margin: 10px 10%;
     }
 
-    .transcriptPage .heading, .aboutPage .heading,
-    .projectsPage .heading, .contactPage .heading,
-    .resumePage .heading {
-        margin: 10px 10%;
+    #homeBody > .heading {
+        width: 100;
+        margin: 0;
     }
 
     #homeBody {
@@ -41,6 +40,19 @@
     .container {
         margin-bottom: 50px !important;
         margin: 10px 10%;
+    }
+
+    .aboutPage .container {
+        text-align: center;
+    }
+
+    .aboutInfo {
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .aboutInfo#introduction {
+        position: relative;
     }
 
     .courses td {

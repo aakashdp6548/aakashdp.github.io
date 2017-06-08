@@ -99,21 +99,21 @@ td .emptyLine {
     text-align: center;
 }
 
-.homePage .heading {
-    width: 100%;
-    background-color: rgba(245, 245, 245, 0.8);
-    color: black;
-    padding: 50px 0px;
-}
-
-.transcriptPage .heading, .aboutPage .heading,
-.projectsPage .heading, .contactPage .heading,
-.resumePage .heading {
+.heading {
     color: black;
     padding-top: 75px;
     margin: 10px 20%;
     font-size: 2.5em;
     text-align: left;
+}
+
+.homePage .heading {
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.8);
+    padding: 50px 0px;
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
 }
 
 .line {
@@ -132,7 +132,12 @@ td .emptyLine {
     height: auto;
 }
 
-.contactPage .container {
+
+.container > img {
+    margin: 10px;
+}
+
+.contactPage .container{
     text-align: center;
 }
 
@@ -140,6 +145,13 @@ td .emptyLine {
     display: inline-block;
     width: 200px;
     margin: auto;
+}
+
+.aboutInfo {
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+    position: absolute;
 }
 
 .contactLink a, a:before {
