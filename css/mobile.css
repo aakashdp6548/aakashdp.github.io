@@ -48,11 +48,6 @@
         height: auto;
     }
 
-    /*.contactTable td {
-        display: table-column;
-        height: auto;
-    }*/
-
     td .emptyLine {
         display: block;
     }
