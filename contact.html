@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
-<body class="transcriptPage">
+<body class="contactPage">
     <nav class="menubar">
         <a href="./index.html"><span class="menuItem" id="home">Home</span></a>
-        <a href="./transcript.html"><span class="menuItem" id="transcriptTab">Transcript</span></a>
         <a href="./resume.html"><span class="menuItem" id="resumeTab">Resumé</span></a>
+        <a href="./transcript.html"><span class="menuItem" id="transcriptTab">Transcript</span></a>
+        <a href="./projects.html"><span class="menuItem" id="projectTab">Projects</span></a>
         <a href="./about.html"><span class="menuItem" id="aboutTab">About Me</span></a>
         <a href="./contact.html"><span class="menuItem" id="contactTab">Contact</span></a>
     </nav>
@@ -19,17 +20,37 @@
     <div class="line"></div>
 
     <div class="container">
-        <p class="email">Email: <a href="mailto:aakashdp@umich.edu" target="_blank">aakashdp@umich.edu</a></p>
+        <!-- <table class="contactTable">
+            <tr>
+                <td><strong>Email</strong></td>
+                <td><strong>Github</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="contactLink">
+                        <a href="mailto:aakashdp@umich.edu" target="_blank">aakashdp@umich.edu</a>
+                    </p>
+                </td>
+                <td>
+                    <p class="contactLink">
+                        <a href="https://github.com/aakashdp6548/" target="_blank">aakashdp6548</a>
+                    </p>
+                </td>
+            </tr>
+        </table> -->
 
-        <!-- <form method='post'>
-            Name: <input type='text' name='name' id='name' /><br />
-            Email: <input type='text' name='email' id='email' /><br />
-            Comment:<br />
-            <textarea name='comment' id='comment'></textarea><br />
-            <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
-            <input type='submit' value='Submit' />
-            <input type="reset" value="Reset">
-        </form> -->
+        <div class="contactLink" id="email">
+            <p>Email</p>
+            <a href="mailto:aakashdp@umich.edu" target="_blank">aakashdp@umich.edu</a>  
+        </div>
+
+        <div class="contactLink" id="github">
+            <p>Github</p>
+            <a href="https://github.com/aakashdp6548/" target="_blank">aakashdp6548</a>
+        </div>
+
+        <!-- <p class="email">Email: <a href="mailto:aakashdp@umich.edu" target="_blank">aakashdp@umich.edu</a></p> -->
+
     </div>
 
     <div class="footer">

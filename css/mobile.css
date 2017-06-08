@@ -4,7 +4,9 @@
         width: 100%;
     }
 
-    .transcriptPage .heading {
+    .transcriptPage .heading, .aboutPage .heading,
+    .projectsPage .heading, .contactPage .heading,
+    .resumePage .heading {
         margin: 10px 10%;
     }
 
@@ -41,11 +43,15 @@
         margin: 10px 10%;
     }
 
-    td {
+    .courses td {
         display: table-row;
         height: auto;
     }
 
+    /*.contactTable td {
+        display: table-column;
+        height: auto;
+    }*/
 
     td .emptyLine {
         display: block;
