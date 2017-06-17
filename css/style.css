@@ -150,11 +150,16 @@ td .emptyLine {
     display: inline-block;
     margin: auto;
     vertical-align: top;
-    position: absolute;
+    /*position: absolute;*/
+}
+
+#aboutPic {
+    width: 25%;
 }
 
 #introduction {
     font-size: 1.5em;
+    width: 70%;
 }
 
 .contactLink a, a:before {

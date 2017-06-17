@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $(document.body).css("margin-top", $(".menubar").height());
+    $(".heading").css("margin-top", $(".menubar").height());
 })
