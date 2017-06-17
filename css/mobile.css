@@ -51,9 +51,14 @@
         font-size: 1em;
     }
 
+    #aboutPic {
+        width: 80%;
+    }
+
     .aboutInfo#introduction {
         position: relative;
         font-size: 1em !important;
+        width: 90%;
     }
 
     .courses td {
