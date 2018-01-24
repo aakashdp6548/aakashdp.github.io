@@ -75,6 +75,8 @@ ul,li {
    padding:0;
 }
 
+
+
 table {
     margin: 10px;
     font-size: 14px;
@@ -183,4 +185,27 @@ td .emptyLine {
 
 .homePage .footer {
     color: white;
+}
+
+div.resumeElement {
+    width: 90%;
+    display: inline-block;
+    margin: 1em 0;
+}
+
+#resumeStuff {
+    column-count: 2;
+}
+
+.resumeElement ul,li {
+    list-style: disc;
+    margin: 0.5em;
+}
+
+.resumeElement a, a:before {
+    color: darkblue;
+}
+
+.resumeElement a:hover {
+    color: lightblue;
 }
