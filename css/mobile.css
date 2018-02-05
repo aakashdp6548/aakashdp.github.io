@@ -70,5 +70,9 @@
         display: block;
     }
 
+    #resumeStuff {
+        column-count: 1;
+    }
+
 
 }

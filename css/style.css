@@ -156,19 +156,20 @@ td .emptyLine {
 }
 
 #aboutPic {
-    width: 25%;
+    width: 20%;
 }
 
 #introduction {
     font-size: 1.5em;
     width: 70%;
+    min-width: 40%;
 }
 
-.contactLink a, a:before {
+a, a:before {
     color: darkblue;
 }
 
-.contactLink a:hover {
+a:hover {
     color: lightblue;
 }
 
@@ -190,14 +191,18 @@ td .emptyLine {
 div.resumeElement {
     width: 90%;
     display: inline-block;
-    margin: 1em 0;
+    margin: 0 0;
+}
+
+div.resumeElement h2 {
+    margin: 0.5em;
 }
 
 #resumeStuff {
     column-count: 2;
 }
 
-.resumeElement ul,li {
+.container ul,li {
     list-style: disc;
     margin: 0.5em;
 }
@@ -208,4 +213,8 @@ div.resumeElement {
 
 .resumeElement a:hover {
     color: lightblue;
+}
+
+#projects div.project {
+    padding: 10px 10%;
 }
